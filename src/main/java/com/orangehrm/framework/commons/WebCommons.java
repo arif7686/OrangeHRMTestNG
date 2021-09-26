@@ -38,6 +38,7 @@ public class WebCommons {
 		element.sendKeys(value);
 	}
 	
+	//	SampleComment
 	//Method to select option from Dropdown
 	public void SelectOption(WebElement element,String option, String selectBy) {
 		Select s = new Select(element);
